@@ -1,0 +1,21 @@
+siblings = 1
+subject = Science
+subject = Math
+Bannanas will prit 8 because that is the newly assighned variable.
+int, float, float, int, int
+100.0
+-4
+1var should be float
+@ should not be in the name of the variable
+The space between month and year should not be there
+x, y, z, = "Apples"
+Z = x
+candybar = "Milkyway"
+name = Shaurya Shukla
+print("My name is "  + name)
+X = science      Y = summer
+print("My favorie subject is " + x + ", and my favorite season is " + Y  + ".")
+x = "I love "
+Y = "Coding."
+print(x + Y)
+List = ["Science", "Lunch", "Enginering"]
