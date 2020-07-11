@@ -1,0 +1,18 @@
+broccoli = 5
+tomatoes = 11
+lettuce = 13
+green_beans = 2
+total = broccoli + lettuce + green_beans + tomatoes
+print(total)
+broc_let = broccoli * lettuce 
+sub = tomatoes - green_beans
+broccoli += 5
+matt = 12
+maxime = 15
+total = matt + maxime
+initial_grade = 86
+forgot_name = 5
+final_grade = initial_grade - forgot_name
+piles = 3
+pieces = 10
+total = piles * pieces
