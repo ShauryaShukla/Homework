@@ -1,0 +1,35 @@
+import random
+
+print("Welcome to the number guessing game (enter -1 if you want to exit the game)")
+
+# give an upper bound
+UpperBound = int(input("What is the limit for the number?\n(must be bigger than 5) "))
+first_turn = True
+if UpperBound == -1:
+  print("You've left the game")
+  first_turn = False
+# choose a random number
+RandomNumber = random.randint(0,UpperBound)
+guess = RandomNumber
+
+turns = 0
+
+while guess != RandomNumber or first_turn == True:
+  first_turn = False
+  # guess a number
+  guess = int(input("Guess a number. "))
+  turns = turns + 1
+
+  # smaller/larger feedbac
+  if guess == RandomNumber:
+    print("That's the number!")
+    print(f"You took {turns} turns ")
+  elif guess == -1:
+    print("You have left the game!")
+    print(f"You took {turns} turns ")
+    break
+  elif guess > RandomNumber:
+    print("The number is smaller.")
+  else:
+    print("The number is bigger")
+  
